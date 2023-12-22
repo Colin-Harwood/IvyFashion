@@ -124,7 +124,7 @@ const MenTops = () => {
                   <div>
                   <img
                     src={`/male/${book.image}`}
-                    alt="Italian Trulli"
+                    alt={`${book.title} by ${book.brand}`}
                     className="img-fluid"
                   />
                   <p style={{ padding: '10px', color:'black' }}>{book.title}</p>

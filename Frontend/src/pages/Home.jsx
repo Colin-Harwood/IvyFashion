@@ -43,7 +43,7 @@ const Home = () => {
           <Col xs={12} sm={6} md={6} lg={6} className="d-flex align-items-end justify-content-center mb-0 position-relative">
             <img
               src="../How-to-dress-for-your-body-type.jpg"
-              alt="Italian Trulli"
+              alt="Male clothes section image"
               className="img-fluid"
             />
             <div className="position-absolute top-50 start-50 translate-middle text-center">
@@ -56,7 +56,7 @@ const Home = () => {
           <Col xs={12} sm={6} md={6} lg={6} className="d-flex align-items-end justify-content-center mt-3 position-relative">
             <img
               src="../hailey-bieber-is-seen-in-brookly.jpg"
-              alt="Italian Trulli"
+              alt="Female clcothes section image"
               className="img-fluid"
             />
             <div className="position-absolute top-50 start-50 translate-middle text-center">

@@ -124,7 +124,7 @@ const WomenOuterwear = () => {
                   <div className='text-decoration-none'>
                   <img
                     src={`/female/${book.image}`}
-                    alt="Italian Trulli"
+                    alt={`${book.title} by ${book.brand}`}
                     className="img-fluid"
                   />
                   <p style={{ padding: '10px', color:'black'}} className="book-title">{book.title}</p>

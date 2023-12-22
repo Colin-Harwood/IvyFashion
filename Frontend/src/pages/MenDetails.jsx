@@ -127,7 +127,7 @@ const MenDetails = () => {
             <Col xs={12} md={4} lg={4} className="mb-0">
               <img
                 src={`/male/${item.image}`}
-                alt="Italian Trulli"
+                alt={`${item.title} by ${item.brand}`}
                 className="img-fluid"
               />
             </Col>
