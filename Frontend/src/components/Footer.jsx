@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
     <br></br>
-        <div className="bg-light " style={{padding, color:"rgb(0,0,0)"}}>
+        <div className="bg-light " style={{padding:"2% 5%", color:"rgb(0,0,0)"}}>
             <footer>
             
             <p><BsEnvelope /> ColinHarwood0@gmail.com</p>
