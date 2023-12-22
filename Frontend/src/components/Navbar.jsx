@@ -20,7 +20,6 @@ function NavBar() {
     axios
       .get('http://localhost:5555/users')
       .then((response) => {
-        console.log(response.data); // Log the response data
         setLoading(false)
         userName = response.data.userInfo.user
         

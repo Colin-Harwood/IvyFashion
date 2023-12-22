@@ -34,7 +34,7 @@ const MenDetails = () => {
     axios
       .get('http://localhost:5555/users')
       .then((response) => {
-        console.log(response.data); // Log the response data
+        
         setLoading(false)
         userName = response.data.userInfo.user
         // setLoggedInn(true);
@@ -54,7 +54,7 @@ const MenDetails = () => {
     axios
       .get(`http://localhost:5555/clothing/${id}`)
       .then((response) => {
-        console.log('Response:', response.data.item);
+        
         setItem(response.data.item);
         setLoading(false);
 
@@ -72,8 +72,7 @@ const MenDetails = () => {
       const fetchData = async () => {
         try {
           const response = await axios.get('http://localhost:5555/wishlist');
-          console.log(response.data.itemsList);
-          console.log(item.title);
+          
 
           // Check if any item in the wishlist has a title that matches, ignoring case and whitespaces
           const isInWishlist = response.data.itemsList.some((wishlistItem) =>

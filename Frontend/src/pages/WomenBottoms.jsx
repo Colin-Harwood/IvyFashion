@@ -46,7 +46,7 @@ const WomenBottoms = () => {
     axios
       .get('http://localhost:5555/clothing')
       .then((response) => {
-        console.log(response.data); // Log the response data
+        
         setItems(response.data.data)
         setLoading(false)
       })

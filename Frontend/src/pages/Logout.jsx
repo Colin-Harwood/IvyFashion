@@ -9,9 +9,9 @@ const Logout = () => {
     const fetchData = async () => {
       try {
         const username = 'logout'
-        const response = await axios.get('http://localhost:5555/clothing');
+        
         const res = await axios.post("http://localhost:5555/login", {username });
-        console.log(response.data);
+        
         // Redirect to home after processing the response
         navigate('/');
         

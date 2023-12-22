@@ -122,14 +122,13 @@ app.put("/wishlist", async (request, response) => {
         //     { "itemsList": request.body.newItem }
         // );
         
-        console.log(request.body)
+        
         const result = await wishList.findOneAndUpdate(
             {"userName":userInfo.user}, 
             { $push: { itemsList: request.body.itemsList } },
             { new: true }
             )
-        console.log(req.session.userInfo.user)
-        console.log(request.body.userName)
+        
         
         response.send(result);
     } catch (e) {

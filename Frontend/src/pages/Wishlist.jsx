@@ -43,7 +43,7 @@ const Wishlist = () => {
       axios
         .get(`http://localhost:5555/wishlist`)
         .then((response) => {
-          console.log('Response:', response.data);
+          
           setItem(response.data);
           setLoading(false);
   
