@@ -1,7 +1,7 @@
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 import express from "express";
-import { PORT, mongoDBURL } from "./config.js"
+import { PORT, mongoDBURL } from "./login/config.js"
 import mongoose from "mongoose";
 import clotheRoutes from './routes/clotheRoutes.js'
 import cors from 'cors';
