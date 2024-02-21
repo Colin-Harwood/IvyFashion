@@ -4,6 +4,26 @@ IvyFashion is an e-commerce store that displays clothes from various fashion bra
 
 The website is built using MongoDB, NodeJS, React and Express and allows users to browse items, save items to their own wishlist once logged in and go to the website of the official retailer of that product to buy the item or view it further.</h5>
 
+<h2>Technologies/Languages Used</h2>
+<hr/>
+
+[MongoDB]: https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white
+[MongoDB-url]: https://www.mongodb.com/
+[![MongoDB][MongoDB]][MongoDB-url]
+
+[Express.js]: https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white
+[Express.js-url]: https://expressjs.com/
+[![Express.js][Express.js]][Express.js-url]
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/      
+[![React][React.js]][React-url]
+
+[Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[Node.js-url]: https://nodejs.org/
+[![Node.js][Node.js]][Node.js-url]
+
+
 <h2>Landing Page</h2>
 <hr/>
 
@@ -38,6 +58,12 @@ The website is built using MongoDB, NodeJS, React and Express and allows users t
 <hr/>
 
 ![FireShot Capture 013 - Ivy Fashion - localhost](https://github.com/Colin-Harwood/IvyFashion/assets/138476341/a1b05f08-cd32-45cb-95f8-9a9069c2d55d)
+
+
+
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
 
 
 
